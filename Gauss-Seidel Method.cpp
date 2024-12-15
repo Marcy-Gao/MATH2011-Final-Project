@@ -36,7 +36,6 @@ void prepare_read(ifstream &file1, ifstream &file2)
         b[i] = stod(str);
         // cout << b[i] << endl;
     }
-    cout << "!!" << endl;
 }
 
 
@@ -112,10 +111,6 @@ int main()
     ifstream file1("1.in");
     ifstream file2("2.in");
     freopen("Gauss-Seidel Method.out","w",stdout);
-    if (!file1.is_open() || !file2.is_open()) {
-        cout << "Error opening files!" << endl;
-        return -1;
-    }
 
     prepare_read(file1, file2); 
  
