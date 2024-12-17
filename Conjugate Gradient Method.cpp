@@ -112,8 +112,9 @@ void solve_conjugate_gradient()
     }
         cout << "Final Solution Vector (x):" << endl;
     for (int i = 0; i < n; i++) {
-        cout << x_n[i] << endl;
+        cout << x_n[i] << " ";
     }
+    cout << endl;
 }
 
 int main()
